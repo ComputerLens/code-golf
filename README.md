@@ -13,15 +13,15 @@ division. Scores are the complete source in bytes.
 | Perl       | `primes.pl`   |    51 |
 | Ruby       | `primes.rb`   |    58 |
 | Python     | `primes.py`   |    64 |
-| C          | `primes.c`    |    68 |
 | JavaScript | `primes.js`   |    68 |
+| C          | `primes.c`    |   101 |
 | C++        | `primes.cpp`  |   104 |
 | Prolog     | `primes.pro`  |   105 |
 | Go         | `primes.go`   |   108 |
 | Scheme     | `primes.scm`  |   121 |
 | Java       | `Primes.java` |   131 |
 
-Five land at 68 bytes or below, five at 104 or above, and nothing
+Four land at 68 bytes or below, six at 101 or above, and nothing
 in between.
 
 Check the counts with `wc -c ep01/*`.
