@@ -1,0 +1,1 @@
+puts((2..99).select{|n|(2...n).none?{|i|n%i<1}}.join(" "))

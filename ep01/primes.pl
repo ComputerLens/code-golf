@@ -1,0 +1,1 @@
+print join$",grep{$n=$_;!grep{$n%$_<1}2..$n-1}2..99

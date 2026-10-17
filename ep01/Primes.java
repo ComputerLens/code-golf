@@ -1,0 +1,1 @@
+class Primes{public static void main(String[]a){for(int n=2;n<100;n++){int i=2;while(n%i!=0)i++;if(i==n)System.out.print(n+" ");}}}

@@ -1,0 +1,1 @@
+(let l((n 2))(when(< n 100)(let c((i 2))(cond((= i n)(display n)(display " "))((> (modulo n i)0)(c(+ i 1)))))(l(+ n 1))))

@@ -1,0 +1,1 @@
+for(n=1;++n<100;){for(i=1;n%++i;);i==n&&process.stdout.write(n+" ")}
