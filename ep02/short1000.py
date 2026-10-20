@@ -1,0 +1,1 @@
+print(2,*[n for n in range(3,1000)if 2**n%n==2])
