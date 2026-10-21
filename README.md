@@ -107,3 +107,48 @@ general prime generator, and it changes the algorithm required by
 Episode 1's comparison. These files preserve the demonstration from
 the video; the shorter versions are intentionally included to show
 the limits of the test.
+
+## Episode 3 — Printing Playing-Card Suits
+
+Three code-golf programs draw playing-card suit shapes as terminal art,
+using C, Python, and Pyth. The challenge is to produce recognizable
+suits with compact source code; Pyth and Python are different languages.
+
+| Language | Source |
+|----------|--------|
+| C        | [`suits.c`](ep03/suits.c) |
+| Python   | [`suits.py`](ep03/suits.py) |
+| Pyth     | [`suits.pyth`](ep03/suits.pyth) |
+
+### Run the programs
+
+From the repository root, compile the C program with GCC and run it:
+
+```bash
+gcc -w ep03/suits.c -o /tmp/codegolf-suits
+/tmp/codegolf-suits
+```
+
+Run the Python version with Python 3:
+
+```bash
+python3 ep03/suits.py
+```
+
+Pyth needs its **own interpreter**. If the Pyth interpreter is installed
+at `/home/pyth/pyth.py`, as in the recording environment, run:
+
+```bash
+python3 /home/pyth/pyth.py ep03/suits.pyth
+```
+
+Measure the exact source size of each file with:
+
+```bash
+wc -c ep03/suits.c ep03/suits.py ep03/suits.pyth
+```
+
+Byte counts depend on the exact saved files, including any final newline.
+The C executable's size is not its code-golf score.
+
+See [Episode 3 notes and setup](ep03/README.md) for details.

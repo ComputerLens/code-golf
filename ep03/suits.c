@@ -1,0 +1,1 @@
+int m,i,putchar(int);int main(){for(char*p="&Lk$NjCiCiD&)jEdFcGcIdK%+mLmNjoNnMmKkIjGhFgEgEhEj&,MkMmJn";*p;p++)if(m^=-1u<<*p%32,*p>63){for(i=29;i--;)putchar(" @ \n"[i?m>>(i<15?i:28-i)&1:*p/32]);m=0;}}
