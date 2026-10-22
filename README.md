@@ -152,3 +152,21 @@ Byte counts depend on the exact saved files, including any final newline.
 The C executable's size is not its code-golf score.
 
 See [Episode 3 notes and setup](ep03/README.md) for details.
+
+## Episode 4 — Brainfuck
+
+Three Brainfuck programs, each printing `Computer Lens` (13 bytes, no
+newline). Scores are the complete source in bytes. Run them with the
+`beef` interpreter (`apt install beef`).
+
+| Program                          | File               | Bytes |
+|----------------------------------|--------------------|------:|
+| Multiplication loop, 11 passes   | `loop.bf`          |   110 |
+| Wraparound loop, 111 passes      | `wrap.bf`          |    91 |
+| Setup loop found with BF-Crunch  | `computer_lens.bf` |    77 |
+
+Run one with `beef ep04/computer_lens.bf`. Every program needs cells that
+wrap around from 255 to 0, and none moves the pointer left of cell 0.
+
+Check the counts with `wc -c ep04/*.bf`.
+
