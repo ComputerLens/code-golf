@@ -170,3 +170,21 @@ wrap around from 255 to 0, and none moves the pointer left of cell 0.
 
 Check the counts with `wc -c ep04/*.bf`.
 
+## Episode 5 — Ook!
+
+Two representations of the same 77-instruction program print `Computer Lens`:
+**77 bytes in Brainfuck** and **769 bytes in Ook!** (neither program prints a newline).
+
+| Language | Source | Bytes |
+|---|---|---:|
+| Brainfuck | [`computer_lens.bf`](ep05/computer_lens.bf) | 77 |
+| Ook! | [`computer_lens.ook`](ep05/computer_lens.ook) | 769 |
+
+Run from the repository root (requires `beef` and Rob-VM's `rob` command):
+
+```bash
+beef ep05/computer_lens.bf
+rob ook ep05/computer_lens.ook
+wc -c ep05/computer_lens.bf ep05/computer_lens.ook
+```
+
